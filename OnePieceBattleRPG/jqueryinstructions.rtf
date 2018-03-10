@@ -1,0 +1,386 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red131\green108\blue40;\red255\green255\blue255;\red0\green0\blue0;
+\red63\green110\blue116;\red14\green14\blue255;}
+{\*\expandedcolortbl;;\csgenericrgb\c51200\c42300\c15700;\csgray\c100000;\csgenericrgb\c0\c0\c0;
+\csgenericrgb\c24700\c43100\c45600;\csgenericrgb\c5500\c5500\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab543
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\fs50 \cf2 \cb3 # \cf4 jQuery Assignment
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Overview
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Before You Begin
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 1.\cf4  Create a new GitHub repo called \cf2 `
+\f2\fs24 \cf5 week-4-game
+\f0\fs26 \cf2 `\cf4 , then clone it to your computer.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 2.\cf4  Inside the \cf2 `
+\f2\fs24 \cf5 week-4-game
+\f0\fs26 \cf2 `\cf4  folder, create an \cf2 `
+\f2\fs24 \cf5 index.html
+\f0\fs26 \cf2 `\cf4  file.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 3.\cf4  Still inside the \cf2 `
+\f2\fs24 \cf5 week-4-game
+\f0\fs26 \cf2 `\cf4  directory, make a folder called \cf2 `
+\f2\fs24 \cf5 assets
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4    \cf2 *\cf4  Inside the \cf2 `
+\f2\fs24 \cf5 assets
+\f0\fs26 \cf2 `\cf4  directory, make three additional folders: \cf2 `
+\f2\fs24 \cf5 javascript
+\f0\fs26 \cf2 `\cf4 , \cf2 `
+\f2\fs24 \cf5 css
+\f0\fs26 \cf2 `\cf4  and \cf2 `
+\f2\fs24 \cf5 images
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  In the \cf2 `
+\f2\fs24 \cf5 javascript
+\f0\fs26 \cf2 `\cf4  folder, make a file called \cf2 `
+\f2\fs24 \cf5 game.js
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  In the \cf2 `
+\f2\fs24 \cf5 css
+\f0\fs26 \cf2 `\cf4  folder, make a file called \cf2 `
+\f2\fs24 \cf5 style.css
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  In the \cf2 `
+\f2\fs24 \cf5 css
+\f0\fs26 \cf2 `\cf4  folder, make a file called \cf2 `
+\f2\fs24 \cf5 reset.css
+\f0\fs26 \cf2 `\cf4 . Paste into it the code found from the Meyerweb Reset.
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  In the images folder, save any of the images you plan on using.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 ```
+\f1\fs24 \cf0 \
+
+\f2 \cf5 \uc0\u9500 \u9472 \u9472  assets
+\f1 \cf0 \
+
+\f2 \cf5 |  \uc0\u9500 \u9472 \u9472  css
+\f1 \cf0 \
+
+\f2 \cf5 |  \uc0\u9500 \u9472 \u9472  images
+\f1 \cf0 \
+
+\f2 \cf5 |  \uc0\u9492 \u9472 \u9472  javascript
+\f1 \cf0 \
+
+\f2 \cf5 \uc0\u9492 \u9472 \u9472  index.html
+\f1 \cf0 \
+
+\f0\fs26 \cf4 ```
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 4.\cf4  Set up your repository to deploy to Github Pages.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 5.\cf4  Push the above changes to GitHub. 
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 6.\cf4  Choose whichever game you want to make from the choices below. The CrystalsCollector game is the recommended option, but if you are looking for an extra hard challenge then take a stab at the Star Wars exercise. (Note: Only choose the Star Wars Exercise if you are feeling very comfortable with the material covered in class. The Crystal Collector activity is plenty challenging enough!).
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Option One: CrystalsCollector Game (Recommended)
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 ![\cf4 Crystal Collector\cf2 ](\cf6 Images/1-CrystalCollector.jpg\cf2 )
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 1.\cf4  \cf2 [\cf4 Watch the demo\cf2 ](\cf6 homework_demos/crystalsCollector_demo.mp4\cf2 )\cf4 .
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 2.\cf4  The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 3.\cf4  Here's how the app works:
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  There will be four crystals displayed as buttons on the page.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player will be shown a random number at the start of the game.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4      \cf2 *\cf4  Your game will hide this amount until the player clicks a crystal.
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  When they do click one, update the player's score counter.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player wins if their total score matches the random number from the beginning of the game.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player loses if their score goes above the random number.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The game restarts whenever the player wins or loses.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4      \cf2 *\cf4  When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ##### \cf4 Option 1 Game design notes
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  The random number shown at the start of the game should be between 19 - 120.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  Each crystal should have a random hidden value between 1 - 12.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Option Two: Star Wars RPG Game (Challenge)
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 ![\cf4 Star Wars\cf2 ](\cf6 Images/2-StarWars.jpg\cf2 )
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 1.\cf4  \cf2 [\cf4 Watch the demo\cf2 ](\cf6 homework_demos/starwars_demo.mp4\cf2 )\cf4 .
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 2.\cf4  Here's how the app works:
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player must then defeat all of the remaining fighters. Enemies should be moved to a different area of the screen.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player chooses an opponent by clicking on an enemy's picture.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  Once the player selects an opponent, that enemy is moved to a \cf2 `
+\f2\fs24 \cf5 defender area
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  The player will now be able to click the \cf2 `
+\f2\fs24 \cf5 attack
+\f0\fs26 \cf2 `\cf4  button.
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  Whenever the player clicks \cf2 `
+\f2\fs24 \cf5 attack
+\f0\fs26 \cf2 `\cf4 , their character damages the defender. The opponent will lose \cf2 `
+\f2\fs24 \cf5 HP
+\f0\fs26 \cf2 `\cf4  (health points). These points are displayed at the bottom of the defender's picture. 
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4      \cf2 *\cf4  The opponent character will instantly counter the attack. When that happens, the player's character will lose some of their \cf2 `
+\f2\fs24 \cf5 HP
+\f0\fs26 \cf2 `\cf4 . These points are shown at the bottom of the player character's picture.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 3.\cf4  The player will keep hitting the attack button in an effort to defeat their opponent.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4    \cf2 *\cf4  When the defender's \cf2 `
+\f2\fs24 \cf5 HP
+\f0\fs26 \cf2 `\cf4  is reduced to zero or below, remove the enemy from the \cf2 `
+\f2\fs24 \cf5 defender area
+\f0\fs26 \cf2 `\cf4 . The player character can now choose a new opponent.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 4.\cf4  The player wins the game by defeating all enemy characters. The player loses the game the game if their character's \cf2 `
+\f2\fs24 \cf5 HP
+\f0\fs26 \cf2 `\cf4  falls to zero or below.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ##### \cf4 Option 2 Game design notes
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  Each character in the game has 3 attributes: \cf2 `
+\f2\fs24 \cf5 Health Points
+\f0\fs26 \cf2 `\cf4 , \cf2 `
+\f2\fs24 \cf5 Attack Power
+\f0\fs26 \cf2 `\cf4  and \cf2 `
+\f2\fs24 \cf5 Counter Attack Power
+\f0\fs26 \cf2 `\cf4 .
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  Each time the player attacks, their character's Attack Power increases by its base Attack Power. 
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf4   \cf2 *\cf4  For example, if the base Attack Power is 6, each attack will increase the Attack Power by 6 (12, 18, 24, 30 and so on).
+\f1\fs24 \cf0 \
+
+\f0\fs26 \cf2 *\cf4  The enemy character only has \cf2 `
+\f2\fs24 \cf5 Counter Attack Power
+\f0\fs26 \cf2 `\cf4 . 
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4   \cf2 *\cf4  Unlike the player's \cf2 `
+\f2\fs24 \cf5 Attack Points
+\f0\fs26 \cf2 `\cf4 , \cf2 `
+\f2\fs24 \cf5 Counter Attack Power
+\f0\fs26 \cf2 `\cf4  never changes.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  The \cf2 `
+\f2\fs24 \cf5 Health Points
+\f0\fs26 \cf2 `\cf4 , \cf2 `
+\f2\fs24 \cf5 Attack Power
+\f0\fs26 \cf2 `\cf4  and \cf2 `
+\f2\fs24 \cf5 Counter Attack Power
+\f0\fs26 \cf2 `\cf4  of each character must differ.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  No characters in the game can heal or recover Health Points. 
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4   \cf2 *\cf4  A winning player must pick their characters wisely by first fighting an enemy with low \cf2 `
+\f2\fs24 \cf5 Counter Attack Power
+\f0\fs26 \cf2 `\cf4 . This will allow them to grind \cf2 `
+\f2\fs24 \cf5 Attack Power
+\f0\fs26 \cf2 `\cf4  and to take on enemies before they lose all of their \cf2 `
+\f2\fs24 \cf5 Health Points
+\f0\fs26 \cf2 `\cf4 . Healing options would mess with this dynamic.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  Your players should be able to win and lose the game no matter what character they choose. The challenge should come from picking the right enemies, not choosing the strongest player.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 - - -
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Minimum Requirements
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 - - -
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Create a README.md
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 Add a \cf2 `
+\f2\fs24 \cf5 README.md
+\f0\fs26 \cf2 `\cf4  to your repository describing the project. Here are some resources for creating your \cf2 `
+\f2\fs24 \cf5 README.md
+\f0\fs26 \cf2 `\cf4 . Here are some resources to help you along the way:
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  \cf2 [\cf4 About READMEs\cf2 ](\cf6 https://help.github.com/articles/about-readmes/\cf2 )
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 *\cf4  \cf2 [\cf4 Mastering Markdown\cf2 ](\cf6 https://guides.github.com/features/mastering-markdown/\cf2 )
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 - - -
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 Add To Your Portfolio
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 - - -
+\f1\fs24 \cf0 \
+\
+
+\f0\fs28 \cf2 ### \cf4 One More Thing
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf4 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
+\f1\fs24 \cf0 \
+\
+
+\f0\fs26 \cf2 **
+\b \cf4 Good Luck!
+\b0 \cf2 **
+\f1\fs24 \cf0 \
+}
